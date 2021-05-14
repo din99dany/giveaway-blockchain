@@ -1,7 +1,5 @@
 pragma solidity ^0.4.17;
  
- //Contract creation file
- 
  contract Lottery{
     
     struct participant {
