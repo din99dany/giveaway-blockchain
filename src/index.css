@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.splitScreen {
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.topPane {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.bottomPane {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.secondTopPane {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.secondBottomPane {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+input {
+  border-radius: 10px;
+  width: 90%;
+  height: 2.5vh;
+}
+
+.smallBox {
+  border-radius: 10px;
+  width: 45%;
+  height: 2.5vh;
+}
+
+button {
+  border-radius: 10px;
+  width: 45%;
+  height: 2.5vh;
+}
+
+li {
+  float: left;
+  overflow:auto;
+}
